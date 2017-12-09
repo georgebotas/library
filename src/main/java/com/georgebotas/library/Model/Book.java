@@ -1,4 +1,4 @@
-package com.georgebotas.library;
+package com.georgebotas.library.Model;
 
 import javax.persistence.*;
 import java.util.Date;

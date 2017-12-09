@@ -1,13 +1,16 @@
-package com.georgebotas.library;
+package com.georgebotas.library.DB;
+
+import com.georgebotas.library.Model.Book;
 
 import java.util.ArrayList;
 
 public interface IDBOps {
-    void validateID(Long book_ID);
 
-    void validateAvailability(Long book_ID);
+    boolean validateID(Long book_ID);
 
-    void validateUnavailability(Long book_ID);
+    boolean validateAvailability(Long book_ID);
+
+    boolean validateUnavailability(Long book_ID);
 
     ArrayList<Book> booksList();
 

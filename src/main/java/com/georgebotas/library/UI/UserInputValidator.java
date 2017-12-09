@@ -1,4 +1,4 @@
-package com.georgebotas.library;
+package com.georgebotas.library.UI;
 
 public class UserInputValidator {
 

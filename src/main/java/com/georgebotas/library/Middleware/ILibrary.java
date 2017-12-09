@@ -1,12 +1,12 @@
-package com.georgebotas.library;
+package com.georgebotas.library.Middleware;
 
 public interface ILibrary {
 
-    void validateID(Long book_ID);
+    boolean validateID(Long book_ID);
 
-    void validateAvailability(Long book_ID);
+    boolean validateAvailability(Long book_ID);
 
-    void validateUnavailability(Long book_ID);
+    boolean validateUnavailability(Long book_ID);
 
     void showLibrary();
 
